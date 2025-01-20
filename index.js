@@ -300,3 +300,4 @@ eventToshow.forEach((events) =>{
     eventGrid.innerHTML += eventItem;
 
 })
+ 
