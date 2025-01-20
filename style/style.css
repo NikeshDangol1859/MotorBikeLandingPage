@@ -608,6 +608,7 @@ a{
 .news_section .show_more a,
 .event_section .show_more a{
     font-size: 20px;
+    margin-top: 30px;
 }
 
 /* About Section */
@@ -648,7 +649,7 @@ a{
 }
 
 .about_us:hover .image{
-    transform: rotate(0deg);
+    transform: rotate(5deg);
     /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6); */
 }
 
@@ -710,7 +711,7 @@ a{
     height: auto; 
 }
 .our_events .title{
-    color: #f2a814;
+    color: #02b3d2;
 }
 .our_events .description{
     width: 100%;
@@ -794,6 +795,22 @@ a{
     border: 1px dashed rgb(255, 247, 0);
     background-color: red;
 }
+
+
+
+
+/* contact */
+#contact{
+    scroll-margin-top: 100px;
+}
+.contact_section{
+    width: 90%;
+    margin:50px auto;
+}
+.contact_head{
+    text-align: center;
+    font-size: 2rem;
+}
 .contact_body{
     width: 100%;
     height: 500px;
@@ -867,19 +884,81 @@ textarea.form-control {
     background-color: #0056b3;
 }
 
-/* contact */
-.contact_section{
-    width: 90%;
-    margin:50px auto;
-}
-.contact_head{
-    text-align: center;
-    font-size: 2rem;
-}
-
 
 /* Footer */
 .footer{
+    width: 90%;
+    margin: auto; 
+    display: flex;
+    gap: 30px;
+}
+.footer_left{
+    width: 30%;
+    padding: 20px;
+
+}
+.footer_logo{
+    width: 200px;
+    height: auto;
+}
+.footer_logo img{
     width: 100%;
-    height: 100vh;
+    height: 100%;
+}
+.footer_containt{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+.footer_icons{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.footer_icons a{
+    color: #000000;
+}
+
+.footer_right{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer_menu .footer_menu_head{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.footer_menu .footer_links{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.footer_menu .footer_links ul li{
+    display:block;
+    margin-bottom: 10px;
+}
+.footer_menu .footer_links ul li a{
+    color: #000000;
+}
+.footer_menu .footer_links ul li a:hover{
+    color: #3d3c3c;
+}
+
+
+ 
+.copywright{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+/* footer Line */
+.hr_line{
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.1),black, rgba(0, 0, 0, 0.1));
+    border: none;
+     margin: 10px auto;
 }
