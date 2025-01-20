@@ -250,12 +250,61 @@ a{
     cursor: pointer;
     font-size: 1rem;
 } 
+/* brands */
+/* Styling the section */
+#brands {
+    text-align: center;
+    margin: 80px 0;
+    scroll-margin-top: 100px;
+}
+
+#brands h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.marquee-container {
+    overflow: hidden;
+    position: relative;
+    padding: 10px 0;
+}
+
+.marquee {
+    display: flex;
+    gap: 30px;
+    animation: scroll-left 14s linear infinite;
+    will-change: transform;
+}
+
+.marquee img {
+    height: 100px;
+    object-fit: contain;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-92.5%); 
+    }
+}
+
+/* Pause animation on hover */
+.marquee-container:hover .marquee {
+    animation-play-state: paused;
+}
+
+
 
 /* Section */
 .section{
     width: 90%;
     display: flex;
-    margin: 100px auto;
+    margin: auto;
     gap: 20px;
 }
 /* Filter */
@@ -484,6 +533,7 @@ a{
     width: 100%;
     height: auto;
     position: relative;
+    margin-top: 40px;
 }
 .marketing_section .image{
     position: relative;
@@ -900,6 +950,7 @@ textarea.form-control {
 .footer_logo{
     width: 200px;
     height: auto;
+
 }
 .footer_logo img{
     width: 100%;
@@ -907,7 +958,7 @@ textarea.form-control {
 }
 .footer_containt{
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 16px;
     text-align: justify;
 }
 .footer_icons{
@@ -919,11 +970,17 @@ textarea.form-control {
 .footer_icons a{
     color: #000000;
 }
+.footer_icons a:hover{
+    color: #007bff;
+}
+
 
 .footer_right{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 20px;
+    margin-top: 33px;
 
 }
 .footer_menu .footer_menu_head{
@@ -931,7 +988,7 @@ textarea.form-control {
     margin-bottom: 20px;
 }
 .footer_menu .footer_links{
-    margin-left: 10px;
+    /* margin-left: 10px; */
     font-size: 14px;
 }
 .footer_menu .footer_links ul li{
@@ -942,7 +999,7 @@ textarea.form-control {
     color: #000000;
 }
 .footer_menu .footer_links ul li a:hover{
-    color: #3d3c3c;
+    color: #cb0303;
 }
 
 
