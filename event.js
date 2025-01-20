@@ -28,7 +28,7 @@ eventToshow.forEach((events) =>{
     <p>${events.description}</p>
     </div>
     <div class="readmore">
-    <a href="/"> read </a>
+    <a href="/"> Keep Reading <i class="fa-solid fa-arrow-right"></i></a>
     </div>
                             
     </div>

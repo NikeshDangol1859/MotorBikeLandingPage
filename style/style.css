@@ -539,7 +539,7 @@ a{
 }
 .news_section .news_head,
 .event_section .event_head{
-    font-size: 2rem;
+    font-size: 2.5rem;
     display: flex;
     margin: 20px auto;
     justify-content: center;
@@ -605,7 +605,10 @@ a{
 .news_content a{
     color: red;
 }
-
+.news_section .show_more a,
+.event_section .show_more a{
+    font-size: 20px;
+}
 
 /* About Section */
 #about {
@@ -698,21 +701,38 @@ a{
     background: #ff6347;
 }
 /* Event style */
+.event_section{
+    margin-bottom: 50px;
+
+}
 .our_events{
     text-align: left;
     height: auto; 
+}
+.our_events .title{
+    color: #f2a814;
 }
 .our_events .description{
     width: 100%;
     text-align: justify;
     margin-bottom: 10px;
 }
+.our_events .readmore{
+    padding: 5px;
+    display: flex;
+    
+}
 .our_events .readmore a{
-    font-size: 20px;
+    font-size: 16px;
     background-color: gray;
     padding: 10px 15px;
     border-radius: 10px;
+    color: white;
 
+}
+.our_events .readmore a:hover{
+    color: rgb(0, 0, 0);
+    background-color: transparent;
 }
 
 /* App style */
@@ -773,6 +793,88 @@ a{
 .app_section .app_contain .app_buttons a:hover{
     border: 1px dashed rgb(255, 247, 0);
     background-color: red;
+}
+.contact_body{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.contact_form{
+    width: 40%;
+    height: auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.contact_form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333333;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #333333;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+textarea.form-control {
+    resize: none;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+/* contact */
+.contact_section{
+    width: 90%;
+    margin:50px auto;
+}
+.contact_head{
+    text-align: center;
+    font-size: 2rem;
 }
 
 

@@ -120,6 +120,81 @@ const products = [
         weight: "148kg",
         type: "sports",
     },
+    {
+        image: "/images/bikes/r15.png",
+        name: "RTR 200 4V",
+        price: "2,10,000",
+        brand: "TVs",
+        model: "RTR 200 4V",
+        engine: "198cc",
+        transmission: "5 Speed",
+        color: "Black",
+        fuel: "12L",
+        mileage: "60",
+        speed: "180km/h",
+        weight: "148kg",
+        type: "sports",
+    },
+    {
+        image: "/images/bikes/r15.png",
+        name: "RTR 200 4V",
+        price: "2,10,000",
+        brand: "TVs",
+        model: "RTR 200 4V",
+        engine: "198cc",
+        transmission: "5 Speed",
+        color: "Black",
+        fuel: "12L",
+        mileage: "60",
+        speed: "180km/h",
+        weight: "148kg",
+        type: "sports",
+    },
+    {
+        image: "/images/bikes/r15.png",
+        name: "RTR 200 4V",
+        price: "2,10,000",
+        brand: "TVs",
+        model: "RTR 200 4V",
+        engine: "198cc",
+        transmission: "5 Speed",
+        color: "Black",
+        fuel: "12L",
+        mileage: "60",
+        speed: "180km/h",
+        weight: "148kg",
+        type: "sports",
+    },
+    {
+        image: "/images/bikes/r15.png",
+        name: "RTR 200 4V",
+        price: "2,10,000",
+        brand: "TVs",
+        model: "RTR 200 4V",
+        engine: "198cc",
+        transmission: "5 Speed",
+        color: "Black",
+        fuel: "12L",
+        mileage: "60",
+        speed: "180km/h",
+        weight: "148kg",
+        type: "sports",
+    },
+    {
+        image: "/images/bikes/r15.png",
+        name: "RTR 200 4V",
+        price: "2,10,000",
+        brand: "TVs",
+        model: "RTR 200 4V",
+        engine: "198cc",
+        transmission: "5 Speed",
+        color: "Black",
+        fuel: "12L",
+        mileage: "60",
+        speed: "180km/h",
+        weight: "148kg",
+        type: "sports",
+    },
     
 ];
 
@@ -133,7 +208,7 @@ function shuffleArray(array) {
 }
 
 // Shuffle products and take the first 6
-const randomProducts = shuffleArray([...products]).slice(0, 6);
+const randomProducts = shuffleArray([...products]);
 
 randomProducts.forEach((product) => {
     const productItem = `

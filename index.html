@@ -21,7 +21,7 @@
                         <li><a href="/index.html">Bike Listing <i class="fa-solid fa-angle-down"></i></a></li>
                         <li><a href="#filter">Shop <i class="fa-solid fa-angle-down"></i></a></li>
                         <li><a href="#news">News</a></li>
-                        <li><a href="/index.html">Contact</a></li>
+                        <li><a href="#contact">Contact</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="/index.html"><i class="fa-regular fa-heart icon"></i></a></li>
                         <li><a href="/index.html"><i class="fa-solid fa-cart-plus icon"></i></a></li>
@@ -217,7 +217,7 @@
                     <div class="marketing_text">
                             <h3>Need you a Transportation?</h3>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum non optio, dolore hic eum minima explicabo dolores, obcaecati fuga animi necessitatibus, corrupti voluptatum odio! Reiciendis molestias quis libero dicta obcaecati.</p>
-                            <a href="">Order Now</a>               
+                            <a href="/allpro.html">Order Now</a>               
                         
 
                     </div>
@@ -238,7 +238,7 @@
                         <!-- codes are from js -->                        
                     </div>
                     <div class="show_more">
-                        <a href="/index.html" class="show_more_button">Show More <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="/index.html" class="show_more_button">View More News<i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                     
 
@@ -271,7 +271,7 @@
                             <!-- codes are from js -->                        
                         </div>
                         <div class="show_more">
-                            <a href="/index.html" class="show_more_button">Show More <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="/index.html" class="show_more_button">All Events <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                         
     
@@ -299,6 +299,37 @@
                 </section>              
             </section> <!--about section close-->
 
+            <section id="contact">
+                <div class="contact_section">
+                    <div class="contact_head">
+                        <h2>Get in Touch</h2>
+                    </div>
+                    <div class="contact_body">
+                        <div class="contact_form">
+                            <form id="contactForm" method="post" action="/contact.php">
+                                <div class="form-group">
+                                    <label for="name">Name:</label>
+                                    <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required autocomplete="off">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required autocomplete="off">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message:</label>
+                                    <textarea id="message" name="message" class="form-control" placeholder="Enter your message" rows="5" required autocomplete="off"></textarea>
+                                </div>
+                                <button type="submit" class="btn-submit">Send Message</button>
+                            </form>
+                        </div>
+                        
+                        <div class="contact_map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d998.5583309071804!2d85.30413228213455!3d27.668623480412005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19a083577123%3A0x4ec53ecba46db2ec!2sGenius%20Systems%20Pvt.%20Ltd.!5e1!3m2!1sen!2snp!4v1737360995213!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div> <!--contact_section Div close-->
+            </section> <!--contact section close-->
+
             
         
         
@@ -312,7 +343,4 @@
 </body>
 </html>
 <script src="index.js"></script>
-<script src="product.js"></script>
-<script src="news.js"></script>
-<script src="event.js"></script>
 
