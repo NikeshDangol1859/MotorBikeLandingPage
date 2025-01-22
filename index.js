@@ -1,3 +1,33 @@
+// Nav
+const hamburger = document.querySelector('.hamburger');
+const filter = document.querySelector('.filter_section');
+const navItems = document.querySelector('.nav_items');
+const closeBtn = document.querySelector('.nav_items .close');
+const navLinks = document.querySelectorAll('.nav_items ul li a'); 
+
+hamburger.addEventListener('click', () => {
+    navItems.classList.add('active');
+    document.body.style.overflow = 'hidden'; 
+});
+
+closeBtn.addEventListener('click', () => {
+    navItems.classList.remove('active');
+});
+
+navLinks.forEach((link) => {
+    link.addEventListener('click', () => {
+        navItems.classList.remove('active');
+    });
+});
+
+document.addEventListener('click', (e) => {
+    if (!navItems.contains(e.target) && !hamburger.contains(e.target)) {
+        navItems.classList.remove('active');
+    }
+});
+
+
+
 // product page
 const products = [
     {
