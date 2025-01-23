@@ -280,7 +280,8 @@
 }
 
 .nav .nav_items.active {
-    left: 0; 
+    left: 0;
+    overflow: hidden;
 }
 
 .nav .nav_items ul {
@@ -910,6 +911,14 @@ font-size: 14px;
     padding: 18px 10px;
 
 }
+}
+@media (max-width:360px){
+    .marketing_section .image {
+        width: 90%;
+        height: 250px;
+        margin: auto;
+        background-color: black;
+    }
 }
 
 

@@ -7,7 +7,6 @@ const navLinks = document.querySelectorAll('.nav_items ul li a');
 
 hamburger.addEventListener('click', () => {
     navItems.classList.add('active');
-    document.body.style.overflow = 'hidden'; 
 });
 
 closeBtn.addEventListener('click', () => {
