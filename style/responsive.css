@@ -73,7 +73,7 @@
 
     .marketing_section .image {
         width: 90%;
-        height: 280px;
+        height: 300px;
         margin: auto;
         background-color: black;
     }
@@ -447,19 +447,19 @@
 }
 
 .product_info .heads {
-    gap: 10px;
+    gap: 5px;
 }
 .product_info .heads i{
-    height: 12px;
-    font-size: 10px;
+    height: 14px;
+    font-size: 12px;
 }
 
 .product_info p {
-    font-size: 0.3rem;
+    font-size: 0.4rem;
 }
 .product_info .heads .icon svg{
-    width: 12px;
-    height: 12px;
+    width: 14px;
+    height: 14px;
 }
 
 
@@ -469,6 +469,9 @@
     height: 280px;
     margin: auto;
     background-color: black;
+}
+.marketing_section .marketing_text {
+    width: 60%; 
 }
 
 
@@ -687,6 +690,16 @@
         height: 100%;
         border-radius: 10px;
         object-fit: contain;
+    }
+
+    @keyframes scroll-left {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-283%); 
+     
+        }
     }
     
 

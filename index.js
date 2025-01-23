@@ -77,7 +77,7 @@ const products = [
     },
     {
         image: "/images/bikes/dukati.png",
-        name: "Bajaj Pulsar",
+        name: "Dukati",
         price: "4,13,900",
         brand: "Bajaj",
         model: "Pulsar 150",
@@ -92,7 +92,7 @@ const products = [
     },
     {
         image: "/images/bikes/xr.png",
-        name: "RTR 200 4V",
+        name: "Xr",
         price: "2,10,000",
         brand: "TVs",
         model: "RTR 200 4V",
@@ -107,7 +107,7 @@ const products = [
     },
     {
         image: "/images/bikes/xpulse.png",
-        name: "Hero Karizma",
+        name: "Hero xpulse",
         price: "1,80,900",
         brand: "Hero",
         model: "Splendor",
@@ -122,7 +122,7 @@ const products = [
     },
     {
         image: "/images/bikes/suzuki.png",
-        name: "Bajaj Pulsar",
+        name: "suzuki",
         price: "4,13,900",
         brand: "Bajaj",
         model: "Pulsar 150",
@@ -137,7 +137,7 @@ const products = [
     },
     {
         image: "/images/bikes/r15.png",
-        name: "RTR 200 4V",
+        name: "R15",
         price: "2,10,000",
         brand: "TVs",
         model: "RTR 200 4V",
