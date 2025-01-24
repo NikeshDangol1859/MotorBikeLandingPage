@@ -107,6 +107,10 @@ a{
     object-fit: cover;
     border-radius: 30px;
 }
+.smallview,
+.supersmall{
+    display: none;
+}
 
 .overlay {
     position: absolute;
