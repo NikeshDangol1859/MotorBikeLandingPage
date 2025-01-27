@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Love+Light&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Neonderthaw&family=Noto+Sans+Devanagari:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{margin: 0; padding: 0;}
 html{
     scroll-behavior: smooth;
 }
 body{
     background-color: #f2f2f2;
+    font-family: "poppins", serif;
 }
 ul{
     list-style: none;
@@ -70,6 +73,7 @@ a{
 }
 .nav .nav_items li a,
 .nav_items .login a {
+    font-family: "Montserrat", serif;
     color: black;
     text-decoration: none;
     font-size: 18px;
@@ -137,7 +141,9 @@ a{
 
 .content p {
     font-size: 1.2rem;
+    line-height: 33px;
     margin-bottom: 20px;
+    font-family: "Noto Sans Devanagari", serif;
 }
 
 .actions {
@@ -216,6 +222,7 @@ a{
 
 .search-item .heads {
     display: block;
+    font-family: "Roboto", serif;
     font-size: 1rem;
     margin-bottom: 5px;
     font-weight: bold;
@@ -384,6 +391,7 @@ a{
 }
 
 .filter_items .items .filter_type .checkbox label {
+    font-family: "Roboto", serif;
     font-size: 1rem;
     color: #444;
     cursor: pointer;
@@ -471,6 +479,7 @@ a{
 }
 
 .product_info h3 {
+    font-family: "Roboto", serif;
     font-size: 1.8rem;
     color: #333;
     font-weight: 600;
@@ -478,6 +487,7 @@ a{
 }
 
 .product_info .price {
+    font-family: "Roboto", serif;
     font-size: 1.4rem;
     color: #ff6f61;
     font-weight: bold;
@@ -485,6 +495,7 @@ a{
 }
 
 .product_info .heads {
+    font-family: "Roboto", serif;
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -495,6 +506,7 @@ a{
 }
 
 .product_info p {
+    font-family: "Roboto", serif;
     font-size: 1rem;
     color: #555;
     margin: 5px 0;
@@ -504,7 +516,7 @@ a{
     color: #333;
 }
 
-.buy_now {
+/* .buy_now {
     margin-top: 20px;
     padding: 12px 25px;
     background: linear-gradient(145deg, #ff6f61, #ff4c3b);
@@ -521,7 +533,7 @@ a{
 .buy_now:hover {
     background: linear-gradient(145deg, #ff4c3b, #ff6f61);
     transform: scale(1.1);
-}
+} */
 
 .show_more{
     display: flex;
@@ -559,6 +571,7 @@ a{
     border-radius:30px;
 }
 .marketing_section .marketing_text{
+
     position: absolute;
     top: 20%;
     left: 5%;
@@ -573,8 +586,10 @@ a{
 }
 .marketing_text  p{
     font-size: 20px;
+    line-height: 33px;
     text-align: justify;
     margin-bottom: 30px;
+    font-family: "Roboto", serif;
 }
 
 
@@ -644,6 +659,7 @@ a{
 }
 .news_info{
     display: flex;
+    font-family: "Montserrat", serif;
 }
 .news_info .date{
     font-size: 1.2rem;
@@ -738,6 +754,7 @@ a{
 }
 
 .about_section .about_head p {
+    font-family: "Roboto", serif;
     font-size: 18px;
     line-height: 1.6;
     text-align: justify;
@@ -775,6 +792,7 @@ a{
 }
 .our_events .description{
     width: 100%;
+    font-family: "Roboto", serif;
     text-align: justify;
     margin-bottom: 10px;
 }
@@ -1004,6 +1022,7 @@ textarea.form-control {
 }
 .footer_menu .footer_links{
     /* margin-left: 10px; */
+    font-family: "Roboto", serif;
     font-size: 14px;
 }
 .footer_menu .footer_links ul li{
