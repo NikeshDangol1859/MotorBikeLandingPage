@@ -10,7 +10,7 @@
         left: 0;
         width: 100%;
         height: 99%;
-        border-radius: 30px;
+        border-radius: 0 30px 0 0;
         background: rgba(0, 0, 0, 0.5);
         z-index: 1;
     }
@@ -177,11 +177,57 @@
     .content {
         width: 50%;
         top: 10%;
+    }   
+     /* Filter and product responsive */
+
+     .filter_section {
+        width: 80%; 
+        height: 100%;
+        background-color: #f9f9f9f8; 
+        border-radius: 10px;
+        padding: 15px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+        transform: translateX(-100%); 
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+        z-index: 10000; 
     }
-    /* Filter and product responsive */
-.filter_section{
-    display: none;
-}
+    
+    .filter_section.show {
+        transform: translateX(0); 
+    }
+    .close_button {
+        display: flex;
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #444;
+        cursor: pointer;
+        transition: color 0.2s ease;
+    }
+    
+    .close_button:hover {
+        color: #ff0000;
+    }
+    .filter_section .filter_head .filter_icon{
+        display: none;
+    }
+    .filter_head h2 {
+        font-size: 1.2rem;
+    }
+    .filter_items .items .heading h3 {
+        font-size: 1rem;
+    }
+    .filter_items .items .filter_type .checkbox label {
+        font-size: 1rem;
+    }
+    .filter_items .items .filter_type input[type="text"]{
+        width: 100%;
+        height: 20px;
+    }
 .product_section {
     width: 100%;
     margin: auto;
@@ -291,7 +337,7 @@
     left: -130%;
     height: 100%;
     width: 60%;
-    background-color: #f2f2f2e5;
+    background-color: #f2f2f2f7;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -426,9 +472,9 @@ margin: 40px 0;
     }
 }
 /* Filter and product responsive */
-.filter_section{
+/* .filter_section{
     display: none;
-}
+} */
 .product_section {
     width: 100%;
     margin: auto;
@@ -739,7 +785,7 @@ margin: 40px 0;
      
         }
     }
-    
+
 
 /* Marketing responsive */
 .marketing_section .image {
@@ -751,6 +797,7 @@ margin: 40px 0;
 .marketing_section .image img {
     display: none;
 }
+
 
 
 .marketing_section .marketing_text {
@@ -963,6 +1010,21 @@ font-size: 14px;
         transform: translateX(-325%); 
     }
 }
+.filter_head h2 {
+    font-size: 1rem;
+}
+.filter_items .items .heading h3 {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+
+}
+.filter_items .items .filter_type .checkbox label {
+    font-size: 0.7rem;
+}
+.line {
+    margin-top: 10px;
+}
+
 .marketing_section{
     height: auto;
 

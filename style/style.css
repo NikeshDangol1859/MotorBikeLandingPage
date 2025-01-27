@@ -415,6 +415,9 @@ a{
 .fillter_btn{
     display: none;
 }
+.close_button{
+    display: none;
+}
 
 .product_grid {
     display: grid;
