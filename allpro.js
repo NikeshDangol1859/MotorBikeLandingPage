@@ -1,4 +1,36 @@
 
+// Nav
+const hamburger = document.querySelector('.hamburger');
+const filter = document.querySelector('.filter_section');
+const navItems = document.querySelector('.nav_items');
+const closeBtn = document.querySelector('.nav_items .close');
+const navLinks = document.querySelectorAll('.nav_items ul li a'); 
+const toggleButton = document.getElementById('toggleFilter');
+const filterSection = document.getElementById('filter');
+const closeButton = document.getElementById('closeFilter');
+
+
+hamburger.addEventListener('click', () => {
+    navItems.classList.add('active');
+    navItems.classList.add('overlay');
+});
+toggleButton.addEventListener('click', () => {
+    filterSection.classList.toggle('show');
+});
+
+closeBtn.addEventListener('click', () => {
+    navItems.classList.remove('active');
+    navItems.classList.remove('overlay');
+});
+closeButton.addEventListener('click', () => {
+    filterSection.classList.remove('show');
+});
+
+navLinks.forEach((link) => {
+    link.addEventListener('click', () => {
+        navItems.classList.remove('active');
+    });
+});
 const products = [
     {
         image: "/images/bikes/Karizma.png",
