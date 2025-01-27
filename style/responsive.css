@@ -4,6 +4,16 @@
     .nav .nav_items .login span {
         display: none;
     }
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 99%;
+        border-radius: 30px;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+    }
     .home .background {
         margin-top: 20px;
     }
@@ -278,10 +288,10 @@
 .nav .nav_items {
     position: fixed;
     top: 0;
-    left: -50%;
+    left: -130%;
     height: 100%;
-    width: 40%;
-    background-color: #f2f2f2;
+    width: 60%;
+    background-color: #f2f2f2e5;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -331,10 +341,10 @@
 /* Home responsive */
 
 .home .background {
-    height: 300px;
+    height: 100%;
     background-color: black;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     overflow: hidden;
 }
 .home .background img {
@@ -342,6 +352,7 @@
     height: auto;
     border-radius: 10px;
     object-fit: contain;
+    opacity: 0.4;
 }
 .home .background .bigview{
     display: none;
@@ -400,6 +411,10 @@
 .search-item select {
     width: 45%;
 } */
+
+#brands {
+margin: 40px 0;
+}
 
 @keyframes scroll-left {
     0% {
@@ -685,6 +700,7 @@
     }
 
     .content p {
+        width: 80%;
         font-size: 0.7rem;
     }
     .actions{
@@ -699,7 +715,7 @@
     }
 
     .home .background {
-        height: 180px;
+        height: 100%;
         background-image: linear-gradient(To bottom,black, rgb(50, 50, 50));
         border-radius: 10px;
         margin-top: 10px;
@@ -905,8 +921,9 @@ font-size: 14px;
 
 @media (max-width: 400px) {
     .home .background{
-        height: 220px;
+        height: 100%;
         margin: auto;
+        margin-top: 15px;
     }
     .home .background img {
         height: auto;
@@ -933,22 +950,17 @@ font-size: 14px;
         font-size: 1.2rem;
     }
     .content p{
-        width: 90%;
+        width: 95%;
         /* font-size: 1.2rem; */
     }
     /* Brands responsive */
-.marquee {
-    display: flex;
-    gap: 30px;
-    animation: scroll-left 14s linear infinite;
-    will-change: transform;
-}
+
 @keyframes scroll-left {
     0% {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-390%); 
+        transform: translateX(-325%); 
     }
 }
 .marketing_section{
