@@ -19,6 +19,7 @@ toggleButton.addEventListener('click', () => {
 
 closeBtn.addEventListener('click', () => {
     navItems.classList.remove('active');
+    navItems.classList.remove('overlay');
 });
 closeButton.addEventListener('click', () => {
     filterSection.classList.remove('show');
