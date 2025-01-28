@@ -388,11 +388,6 @@
 
 
 @media (max-width: 768px) {
-
-    /* Nav responsive */
-
-   
-
 /* Home responsive */
 
 .home .background {
@@ -470,11 +465,6 @@
     display: none;
 }
 
-/* .search-item input,
-.search-item select {
-    width: 45%;
-} */
-
 #brands {
 margin: 40px 0;
 }
@@ -488,10 +478,7 @@ margin: 40px 0;
  
     }
 }
-/* Filter and product responsive */
-/* .filter_section{
-    display: none;
-} */
+
 .product_section {
     width: 100%;
     margin: auto;
@@ -804,9 +791,6 @@ line-height: 25px;
         border-radius: 10px;
         object-fit: cover;
     }
-    /* .home .background .smallview{
-        display: flex;
-    } */
 
     @keyframes scroll-left {
         0% {
@@ -820,12 +804,6 @@ line-height: 25px;
 
 
 /* Marketing responsive */
-/* .marketing_section .image {
-    width: 90%;
-    height: 200px;
-    margin: auto;
-    background-color: black;
-} */
 .marketing_section .image img {
     display: none;
 }
@@ -986,8 +964,6 @@ font-size: 6px;
 font-size: 14px;
 }
 
-
-
     
 } 
 
@@ -1024,8 +1000,6 @@ font-size: 14px;
     }
     .content p{
         width: 95%;
-        /* line-height: 18px; */
-        /* font-size: 1.2rem; */
     }
     /* Brands responsive */
 
@@ -1066,8 +1040,8 @@ font-size: 14px;
     .app_section .app_contain .app_buttons a{
         font-size: 10px;
     }
-
 }
+
 @media (max-width:360px){    
     .marketing_section .image {
         width: 90%;
@@ -1079,8 +1053,3 @@ font-size: 14px;
         font-size: 1.2rem;
     }
 }
-
-
-
-
-
