@@ -5,6 +5,10 @@
     .nav .nav_items .login i {
         display: none;
     }
+    .nav .nav_items li a,
+    .nav_items .login a {
+        font-size: 15px;
+    }
     .overlay {
         position: absolute;
         top: 0;
@@ -27,13 +31,19 @@
     .home .background .supersmall{
     display: none;
 }
+.content {
+    width: 60%;
+    top: 15%;
+    left: 5%;
+}
 
     .content h1 {
         font-size: 2.5rem;
     }
 
     .content p {
-        font-size: 1rem;
+        width: 70%;
+        font-size: 1.5rem;
     }
 
     .actions {
@@ -232,6 +242,9 @@
     text-decoration: none;
     width: 100%;
     transition: color 0.3s ease;
+}
+.nav_items .login a {
+    font-size: 18px;
 }
 
 .nav .nav_items li a:hover {
@@ -597,6 +610,10 @@ line-height: 25px;
     .news_content {
         font-size: 12px; 
     }
+    
+    /* .news_content h2 {
+        padding:10px;
+    } */
 
     .news_section .show_more a,
     .event_section .show_more a {
@@ -836,10 +853,14 @@ line-height: 25px;
         gap: 15px; 
     }
 
-    .latest_news,
-    .our_events {
-        width: 130px;
-        padding: 8px; 
+    .latest_news{
+        width: 140px;
+        height: auto;
+        padding: 0; 
+    }
+    .our_events{
+        width: 140px;
+        padding: 8px;
     }
 
     .news_info .date {
@@ -848,7 +869,7 @@ line-height: 25px;
     }
 
     .news_content {
-        font-size: 8px; 
+        font-size: 8px;
     }
 
     .news_section .show_more a,
