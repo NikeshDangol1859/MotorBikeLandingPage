@@ -240,11 +240,13 @@
 
 .nav_items .close {
     display: flex;
-    font-size: 34px;
-    align-self: flex-end;
-    cursor: pointer;
-    color: black;
-    font-weight: 800;
+        background: none;
+        border: none;
+        font-size: 2rem;
+        color: #444;
+        cursor: pointer;
+        transition: color 0.2s ease;
+        align-self: flex-end;
 }
     .home .background .bigview,
     .home .background .supersmall{
@@ -670,6 +672,9 @@ line-height: 25px;
 
     
 /* Contact Responsive */
+.contact_body {
+    height: 430px;
+}
 .contact_form{
     width: 90%;
     margin: 0 auto;
@@ -713,6 +718,7 @@ line-height: 25px;
 
     .footer{
         flex-direction: column;
+        margin-top: 1px;
         }
     .footer_left{
         width: 90%;
@@ -1042,6 +1048,9 @@ font-size: 14px;
 .filter_items .items .filter_type .checkbox label {
     font-size: 0.7rem;
 }
+.filter_items .items {
+    margin: 10px 0;
+}
 .line {
     margin-top: 10px;
 }
@@ -1059,9 +1068,8 @@ font-size: 14px;
     }
 
 }
-@media (max-width:360px){
+@media (max-width:360px){    
     .marketing_section .image {
-
         width: 90%;
         height: 300px;
         margin: auto;
